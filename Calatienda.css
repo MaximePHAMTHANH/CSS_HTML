@@ -1,0 +1,173 @@
+.woocommerce button.button:disabled{color:white!important}
+
+.grecaptcha-badge {
+    display: none!important;
+}
+
+
+.woocommerce-product-gallery {
+    padding-bottom: 50px;
+}
+
+span.ast-woo-product-category {
+    font-size: 15px!important;
+    margin-bottom: 1px!important;
+    margin-top: -5px!important;
+    font-weight: bold!important;
+}
+
+
+.woocommerce form .form-row-first, .woocommerce form .form-row-last, .woocommerce-page form .form-row-first, .woocommerce-page form .form-row-last {
+	width: 100%;}
+
+.woocommerce-page.woocommerce-checkout #payment div.form-row, .woocommerce.woocommerce-checkout #payment div.form-row {
+    padding: 0px;
+}
+
+.place-order{margin-bottom:20px!important}
+
+
+.wpcf7-spinner{display:none}
+
+
+input.wpcf7-form-control.has-spinner.wpcf7-submit:hover {
+    background-color: grey;
+}
+
+.woocommerce-product-details__short-description {
+    font-size: 17px;
+}
+
+.woocommerce-Tabs-panel--description {
+    font-size: 17px;
+}
+
+.ast-woocommerce-container {
+    border-style: solid;
+    border-width: 3px 0px 0px 0px;
+    margin-top: 40px;
+}
+
+div#wpcf7-f2715-o1 {
+    color: white;
+}
+
+@media screen and (max-width: 900px) {
+.fb_reset {
+    display: none;
+	}}
+
+.alma-payment-plans-eligibility-options::before {
+  content: " Paiement en";
+  font-weight: bold;
+	margin-top:-1px
+}
+.alma-payment-plans-eligibility-options{
+   margin-top:1px;
+	}
+@media screen and (min-width: 700px) {
+.alma-payment-plans-eligibility-options::after{
+  content: "sans frais";
+  font-size:11px ;
+	color: grey;
+	margin-top:3px;
+	font-weight: bold;
+}}
+
+
+.alma-payment-plans-container{
+    max-width:100%!important;
+	}
+
+.alma-payment-plans-payment-info.alma-payment-plans-not-eligible-option::before{
+	content:"Eligible au paiement différé :";
+	font-weight: bold;
+	color:green;
+    display:block!important;
+	margin-bottom:8px;
+	}
+.alma-payment-plans-payment-info::before{
+	content:"Soit par mois :";
+	font-weight: bold;
+	color:green;
+    display:block!important;
+	margin-bottom:8px;
+	}
+
+.payment_method_ppcp-gateway{
+    display: block;
+	}
+.payment_method_ppcp-gateway::after{
+content:url(https://calatienda.fr/wp-content/uploads/2022/11/PayPal.svg)!important ;
+	width:30px!important;
+padding-left:93px!important;
+	margin-top:-29px!important;
+	margin-bottom:-0px;
+}
+
+.payment_method_stripe::after{
+	margin-bottom:13px;
+}
+/*
+.elementor-button-text::before{content:" 🎄 "
+} 
+.elementor-button-text::after{content:" 🎄 "
+}
+
+.single_add_to_cart_button::before{content:" 🎄 "
+} 
+.single_add_to_cart_button::after{content:" 🎄 "
+} 
+.checkout-button::before{content:" 🎄 "
+} 
+.checkout-button::after{content:" 🎄 "
+} 
+.woocommerce-page.woocommerce-checkout #payment #place_order::before{content:" 🎄 "
+} 
+.woocommerce-page.woocommerce-checkout #payment #place_order::after{content:" 🎄 "
+} 
+*/
+blockquote {margin: 0px!important; 
+	font-size: 11px!important;
+border-left:0px}
+
+ul#shipping_method li:not(.elementor-widget-woocommerce-cart #shipping_method li){text-indent:0px!important}
+
+
+.woocommerce ul.products li.product .onsale {
+    margin: -1.5em -1em 0 0;}
+
+.woocommerce span.onsale {
+    padding: 6px;
+	padding-top:8px;
+	padding-bottom:8px;
+background-color:#D85B00}
+
+.mega-block-title{display:none!important;}
+
+#mega-menu-wrap-primary #mega-menu-primary {
+	text-align: center;}
+#mega-menu-wrap-primary #mega-menu-primary > li.mega-menu-megamenu > ul.mega-sub-menu > li.mega-menu-item > a.mega-menu-link, #mega-menu-wrap-primary #mega-menu-primary > li.mega-menu-megamenu > ul.mega-sub-menu li.mega-menu-column > ul.mega-sub-menu > li.mega-menu-item > a.mega-menu-link {
+	text-align: center;
+margin-top:-20px}
+.mega-menu-link{color:black!important}
+.mega-sub-menu{padding-top:10px!important}
+.mega-menu-item-7048 .mega-menu-link:not(.mega-sub-menu .mega-menu-link)::before{content:"New";color:#D85B00!important;font-family:Arial!important;font-weight:500!important;font-size:13px!important;margin-top:-8px!important;margin-right:4px!important}
+
+#mega-menu-wrap-primary, #mega-menu-wrap-primary #mega-menu-primary, #mega-menu-wrap-primary #mega-menu-primary ul.mega-sub-menu, #mega-menu-wrap-primary #mega-menu-primary li.mega-menu-item, #mega-menu-wrap-primary #mega-menu-primary li.mega-menu-row, #mega-menu-wrap-primary #mega-menu-primary li.mega-menu-column, #mega-menu-wrap-primary #mega-menu-primary a.mega-menu-link, #mega-menu-wrap-primary #mega-menu-primary span.mega-menu-badge {text-align:center}
+
+.mega-menu-item-4042 
+.mega-sub-menu{left:unset!important;
+width:unset!important;
+right:200px!important}
+
+.mega-menu-item-4040
+.mega-sub-menu{left:unset!important;
+width:unset!important;
+right:150px!important}
+
+
+.mega-menu-item-7048 
+.mega-sub-menu{left:unset!important;
+width:unset!important;
+right:100px!important}
