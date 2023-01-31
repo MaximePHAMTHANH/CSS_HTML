@@ -1,0 +1,108 @@
+@font-face {
+    font-family: Caviar;  
+    src: url(https://harmony-conciergerie.com/wp-content/Fonts/CaviarDreams.ttf); 
+    font-weight: normal;  
+}
+
+@font-face {
+    font-family: Mostery;  
+    src: url(https://harmony-conciergerie.com/wp-content/Fonts/Mostery.ttf); 
+    font-weight: normal;  
+}
+.elementor-heading-title{ 
+font-family: "Mostery", Mostery, sans-serif !important;
+}
+.elementor-widget-text-editor{ 
+font-family: "Caviar", Caviar, sans-serif !important;
+}
+.elementor-button-text{ 
+font-family: "Mostery", Mostery, sans-serif !important;
+}
+.main-header-bar-navigation{ 
+font-family: "Mostery", Mostery, sans-serif !important;
+}
+.menu-link{ 
+color: #ffffff;!important;
+font-size:14px!important;
+}
+
+.dashicons-arrow-up-alt2{ 
+border-radius:25px!important;
+}
+.footer-txt{ 
+font-family: "Inter", Inter, sans-serif !important;
+}
+.site-header-above-section-center{display:none!important}
+.sub-menu{background-color:#07001e!important;
+border:2px!important;
+margin:3px!important;}
+
+
+.dashicons-arrow-up-alt2 {
+	margin-bottom:80px!important;
+height:50px!important;
+width:50px!important;
+border-radius:50px!important;
+font-size:45px!important}
+
+
+.page_item{background-color:#07001e!important;}
+
+
+#callnowbutton{display:none!important;}
+
+/*.trp-flag-image{margin-left:30px!important}*/
+
+@media only screen and (max-width: 600px) {#callnowbutton{display:flex!important;
+	background-color:#07001e!important;
+margin-bottom:80px!important;
+height:60px!important;
+width:60px!important;}
+	.dashicons-arrow-up-alt2 {
+	margin-bottom:150px!important;
+height:50px!important;
+width:50px!important;
+border-radius:50px!important;
+font-size:45px!important}
+
+}
+
+.wpforms-submit{background-color:#07001e!important;
+color:white!important;
+font-family: "Mostery", Mostery, sans-serif !important;
+font-size:15px!important;
+margin:auto!important;}
+
+.wpforms-title{
+font-family: "Mostery", Mostery, sans-serif !important;
+text-align:center;}
+.wpforms-field-label{
+font-family: "Mostery", Mostery, sans-serif !important;
+}
+.wpforms-field-sublabel {
+font-family: "Mostery", Mostery, sans-serif !important;
+}
+
+.colum-bot .elementor-widget-wrap {   flex-direction:column!important;
+}
+.colum-bot .elementor-widget-wrap div:last-child{
+	margin-top:auto!important;
+}
+
+
+.trp-ls-shortcode-current-language{background-color:#07001e!important;
+border:0px!important;}
+
+.trp-ls-shortcode-disabled-language{color:white!important}
+.trp-ls-shortcode-language{background-color:#07001e!important;
+border:0px!important;}
+.trp-language-switcher{color:white!important}
+
+.wpcf7 form>div, .wpcf7 form>p {font-size: 15px;
+font-family: "Mostery", Mostery, sans-serif !important;
+}
+
+	
+.wpcf7 input:not([type=submit]), .wpcf7 select, .wpcf7 textarea {
+    background-color: white;
+}
